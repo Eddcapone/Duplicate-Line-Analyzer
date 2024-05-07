@@ -40,10 +40,12 @@ python count_duplicates.py <file_path> <top_n> <max_chars> <min_chars>
 ```
 
 ### Arguments
+```
 <file_path>: Path to the SQL file to analyze.
 <top_n>: The number of top duplicate queries to display.
 <max_chars>: Maximum character length for each line to be included in the output.
 <min_chars>: Minimum character length for each line to be included in the analysis.
+```
 
 #### Example
 To analyze the top 10 duplicate queries in your_file_path.sql, considering lines between 50 and 100 characters:
