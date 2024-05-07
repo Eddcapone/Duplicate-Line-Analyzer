@@ -37,7 +37,7 @@ def count_duplicate_lines(file_path, top_n, max_chars, min_chars):
     line_counts = Counter(lines)
 
     # Create a DataFrame to display results
-    df = pd.DataFrame(list(line_counts.items()), columns=['SQL Query', 'Count'])
+    df = pd.DataFrame(list(line_counts.items()), columns=['Line', 'Count'])
 
     # Sort by the count in descending order
     df.sort_values(by='Count', ascending=False, inplace=True)
