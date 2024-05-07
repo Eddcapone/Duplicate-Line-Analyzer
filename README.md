@@ -3,8 +3,7 @@
 ## Overview
 This Python script efficiently analyzes lines from a provided text file to identify and count duplicate entries. It's designed to help database administrators, developers and data analysts quickly understand the frequency of repeated lines in their logs, which can be critical for performance tuning and debugging. The script features functionality to filter and format the output based on line character length and to display results in a neatly formatted table.
 
-![image](https://github.com/Eddcapone/Duplicate-Line-Analyzer/assets/16349349/0ed13034-203c-420a-9010-3a22d2cd5c76)
-
+![image](https://github.com/Eddcapone/Duplicate-Line-Analyzer/assets/16349349/74ece119-90db-4130-b120-c9771ebb08b0)
 
 ## Features
 - **Duplicate Counting:** Identify and count duplicate SQL query lines.
