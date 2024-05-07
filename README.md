@@ -56,10 +56,10 @@ Optional:
 
 ## Examples
 
-This command will analyze *your_file.txt* and print out the top 10 lines with the most duplicates, considering lines that are at least 20 characters long and truncating them to 100 characters if they are longer and excluding lines containing the word "error":
+This command will analyze *your_file.txt* and print out the top 10 lines with the most duplicates, considering lines that are at least 40 characters long and truncating them to 100 characters if they are longer and excluding lines containing the word "error":
 
 ```bash
-python count_duplicates.py your_file.txt 10 100 20 --exclude "Megamenu"
+python count_duplicates.py your_file.txt 10 100 40 --exclude "Megamenu"
 ```
 
 ![image](https://github.com/Eddcapone/Duplicate-Line-Analyzer/assets/16349349/423c0ae7-e207-4d6d-95d4-5559edbb4712)
