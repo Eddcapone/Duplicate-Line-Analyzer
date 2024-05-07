@@ -48,7 +48,7 @@ python count_duplicates.py <file_path> <top_n> <max_chars> <min_chars>
 ```
 
 #### Example
-To analyze the top 10 duplicate queries in your_file_path.sql, considering lines between 50 and 100 characters:
+To analyze the top 10 duplicate queries in your_file_path.sql, considering lines with minimum 50 characters. Only display 100 characters.
 
 ```bash
 python count_duplicates.py your_file_path.sql 10 100 50
