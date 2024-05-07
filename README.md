@@ -46,22 +46,34 @@ python count_duplicates.py <file_path> <top_n> <max_chars> <min_chars> [--exclud
 <top_n>: The number of top duplicate lines to display.
 <max_chars>: Maximum character length for each line to be included in the output.
 <min_chars>: Minimum character length for each line to be included in the analysis.
+
+Optional:
 --exclude PATTERN: Optional regex pattern to exclude lines that match.
+--include PATTERN: Optional regex pattern to include lines that match.
+--min-count: Minimum count a line must have to be included in the results.
 --help: Shows Manual
 ```
 
-## Example
+## Examples
 
 This command will analyze *your_file.txt* and print out the top 10 lines with the most duplicates, considering lines that are at least 20 characters long and truncating them to 100 characters if they are longer and excluding lines containing the word "error":
 
 ```bash
-python count_duplicates.py your_file.txt 10 100 20 --exclude "error"
+python count_duplicates.py your_file.txt 10 100 20 --exclude "Megamenu"
 ```
 
-## Output
-The output will be displayed in your command line interface as a table with two columns: Line and Count, representing the line and its frequency, respectively.
-
 ![image](https://github.com/Eddcapone/Duplicate-Line-Analyzer/assets/16349349/423c0ae7-e207-4d6d-95d4-5559edbb4712)
+
+-------------
+
+This command will analyze *your_file.txt* and print out the top 10 lines with the most duplicates, considering lines that are at least 20 characters long and truncating them to 100 characters if they are longer and only including lines containing the word "SQL" and only shows results with a count greater than 10.
+
+```bash
+python count_duplicates.py your_file.txt 10 100 20 --include="Framework" --min-count=10
+```
+![image](https://github.com/Eddcapone/Duplicate-Line-Analyzer/assets/16349349/78e7c28d-a0fa-430b-b531-54be6fc5bbfd)
+
+
 
 ## Contributing
 Contributions are welcome! Please feel free to submit pull requests, create issues for bugs and feature requests, or provide feedback.
