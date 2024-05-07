@@ -47,6 +47,7 @@ python count_duplicates.py <file_path> <top_n> <max_chars> <min_chars> [--exclud
 <max_chars>: Maximum character length for each line to be included in the output.
 <min_chars>: Minimum character length for each line to be included in the analysis.
 --exclude PATTERN: Optional regex pattern to exclude lines that match.
+--help: Shows Manual
 ```
 
 ## Example
