@@ -66,7 +66,7 @@ python count_duplicates.py your_file.txt 10 100 40 --exclude "Megamenu"
 
 -------------
 
-This command will analyze *your_file.txt* and print out the top 10 lines with the most duplicates, considering lines that are at least 20 characters long and truncating them to 100 characters if they are longer and only including lines containing the word "SQL" and only shows results with a count greater than 10.
+This command will analyze *your_file.txt* and print out the top 10 lines with the most duplicates, considering lines that are at least 20 characters long and truncating them to 100 characters if they are longer and only including lines containing the word "Framework" and only shows results with a count greater than 10.
 
 ```bash
 python count_duplicates.py your_file.txt 10 100 20 --include="Framework" --min-count=10
