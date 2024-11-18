@@ -28,7 +28,7 @@ pip install pandas tqdm tabulate argparse
 Clone this repository or download the script directly. If you choose to clone:
 
 ```bash
-git clone https://github.com/Eddcapone/Duplicate-Line-Analyzer
+git clone https://github.com/Eddcapone/Duplicate-Line-Analyzer.git
 cd duplicate-line-analyzer
 ```
 
