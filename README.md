@@ -44,8 +44,9 @@ python count_duplicates.py <file_path> <top_n> <max_chars> <min_chars> [--exclud
 ```vbnet
 <file_path>: Path to the file to analyze.
 <top_n>: The number of top duplicate lines to display.
-<max_chars>: Maximum character length for each line to be included in the output.
-<min_chars>: Minimum character length for each line to be included in the analysis.
+<max_chars>: Maximum number of characters per line to consider in the analysis. E.g. if you analyse a webserver access log then the first chars of each line is the IP address.
+             If you set max_chars to 15 then only the first 15 chars are read in and evaluated.
+<min_chars>: Minimum number of characters per line to consider in the analysis. E.g. don't consider lines that are shorter than X.
 
 Optional:
 --exclude PATTERN: Optional regex pattern to exclude lines that match.
